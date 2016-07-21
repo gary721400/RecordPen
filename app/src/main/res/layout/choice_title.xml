@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorchoice"
+    android:orientation="horizontal">
+
+    <!--<Button-->
+        <!--android:text="Back"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:id="@+id/title_button01"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:text="@string/afayabluetoot"
+        android:textSize="24dp"
+        android:textColor="#FFF"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/stop"
+        android:layout_margin="5dp"
+        android:id="@+id/title_button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+<!--<Button-->
+    <!--android:id="@+id/button01"-->
+    <!--android:layout_gravity="top"-->
+    <!--android:text="button01"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button02"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:text="button02"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button03"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:text="button03"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+</LinearLayout>

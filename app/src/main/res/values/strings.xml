@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RecordPen</string>
+    <string name="title_letf">Note/Ap5 </string>
+    <string name="title_medu">Menu</string>
+    <string name="afayabluetoot">AfayaBluetoothBle</string>
+    <string name="scan">Scan</string>
+    <string name="stop">Stop</string>
+
 </resources>

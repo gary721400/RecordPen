@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
-public class Choice_Ble extends AppCompatActivity {
+public class DrawActivity extends AppCompatActivity {
 
     private Button bt1;
 
@@ -15,21 +15,16 @@ public class Choice_Ble extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_choice__ble);
+        setContentView(R.layout.activity_draw);
 
-//        LinearLayout l1 = (LinearLayout) findViewById(R.layout.choice_title);
-        bt1 = (Button) findViewById(R.id.bletitle).findViewById(R.id.title_button02);
-
+       bt1 = (Button) findViewById(R.id.drawtitle).findViewById(R.id.button);
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Choice_Ble.this,ListPageActivity.class);
+                Intent intent = new Intent(DrawActivity.this,Choice_Ble.class);
                 startActivity(intent);
             }
         });
-
-
-
 
     }
 }
